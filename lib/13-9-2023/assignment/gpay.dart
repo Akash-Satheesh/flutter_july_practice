@@ -49,18 +49,20 @@ class SplashPage extends StatelessWidget {
                 height: 100,
               ),
 
-              Column(
-                children: [
-                  Text(
-                    "GOOGLE PAY",
-                    style: GoogleFonts.lato(
-                      textStyle: Theme.of(context).textTheme.displayLarge,
-                      fontSize: 30,
-                      fontWeight: FontWeight.w500,
-                      fontStyle: FontStyle.italic,
+              Container(
+                child: Column(
+                  children: [
+                    Text(
+                      "GOOGLE PAY",
+                      style: GoogleFonts.lato(
+                        textStyle: Theme.of(context).textTheme.displayLarge,
+                        fontSize: 30,
+                        fontWeight: FontWeight.w500,
+                        fontStyle: FontStyle.italic,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,

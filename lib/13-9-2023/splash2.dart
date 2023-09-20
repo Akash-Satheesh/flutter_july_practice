@@ -35,13 +35,16 @@ class SplashPage extends StatelessWidget {
             height: 200,
           ),
 
-          Text(
-            "APPACHE CASSANDRA",
-            style: GoogleFonts.viga(
-              textStyle: Theme.of(context).textTheme.displayLarge,
-              fontSize: 30,
-              fontWeight: FontWeight.w500,
-              fontStyle: FontStyle.italic,
+          Container(
+            child: Text(
+              "APPACHE CASSANDRA",
+              textAlign: TextAlign.end,
+              style: GoogleFonts.viga(
+                textStyle: Theme.of(context).textTheme.displayLarge,
+                fontSize: 30,
+                fontWeight: FontWeight.w500,
+                fontStyle: FontStyle.italic,
+              ),
             ),
           ),
           Column(
